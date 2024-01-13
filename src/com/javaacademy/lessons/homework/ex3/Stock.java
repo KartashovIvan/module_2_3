@@ -23,4 +23,9 @@ public class Stock {
         return items.remove(index);
     }
 
+    public void lastOne() {
+        Item item = items.get(items.size() - 1);
+        items.clear();
+        items.add(item);
+    }
 }

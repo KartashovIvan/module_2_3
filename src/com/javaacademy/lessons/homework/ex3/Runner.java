@@ -17,5 +17,6 @@ public class Runner {
         stock.addAllItems(items);
         System.out.println(stock.getItems());
         System.out.println(stock.getItem(3));
+        stock.lastOne();
     }
 }
