@@ -1,15 +1,25 @@
 package com.javaacademy.lessons.homework.ex1;
 
-import java.util.ArrayList;
+public class Zoo<A extends Animal,B extends Animal,C extends Animal> {
+    private final A animalOne;
+    private final B animalTwo;
+    private final C animalThree;
 
-public class Zoo<T extends Animal> {
-    private final ArrayList<T> animals = new ArrayList<>();
-
-    public void addAnimal(T animal) {
-        animals.add(animal);
+    public Zoo(A animalOne, B animalTwo, C animalThree) {
+        this.animalOne = animalOne;
+        this.animalTwo = animalTwo;
+        this.animalThree = animalThree;
     }
 
-    public ArrayList<T> getAnimals() {
-        return animals;
+    public A getAnimalOne() {
+        return animalOne;
+    }
+
+    public B getAnimalTwo() {
+        return animalTwo;
+    }
+
+    public C getAnimalThree() {
+        return animalThree;
     }
 }

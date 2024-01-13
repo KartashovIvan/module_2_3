@@ -1,8 +1,7 @@
 package com.javaacademy.lessons.homework.ex1;
 
 public class Tiger extends Animal{
-    @Override
-    public void takeAction() {
+    public void growl() {
         System.out.println("Тигр рычит");
     }
 }
