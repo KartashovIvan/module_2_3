@@ -24,8 +24,6 @@ public class Stock {
     }
 
     public void lastOne() {
-        Item item = items.get(items.size() - 1);
-        items.clear();
-        items.add(item);
+        items.subList(0,items.size() - 1).clear();
     }
 }
