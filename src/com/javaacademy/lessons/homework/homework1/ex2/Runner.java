@@ -1,4 +1,4 @@
-package com.javaacademy.lessons.homework.ex2;
+package com.javaacademy.lessons.homework.homework1.ex2;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,6 +10,7 @@ public class Runner {
 
         ArrayList<Integer> finalList = new ArrayList<>(listOne);
         finalList.addAll(listTwo);
+
         finalList.removeAll(listOne);
 
         System.out.println("Индекс числа 10 - " + finalList.indexOf(10));

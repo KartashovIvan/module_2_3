@@ -1,4 +1,4 @@
-package com.javaacademy.lessons.homework.ex3;
+package com.javaacademy.lessons.homework.homework1.ex3;
 
 public class Item {
     private final String name;

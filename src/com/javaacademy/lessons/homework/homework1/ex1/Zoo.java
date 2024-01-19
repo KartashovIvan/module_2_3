@@ -1,4 +1,4 @@
-package com.javaacademy.lessons.homework.ex1;
+package com.javaacademy.lessons.homework.homework1.ex1;
 
 public class Zoo<A extends Animal, B extends Animal, C extends Animal> {
     private final A animalOne;
