@@ -1,7 +1,6 @@
 package com.javaacademy.lessons.lesson2.ex1;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Runner {

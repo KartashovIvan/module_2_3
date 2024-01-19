@@ -3,7 +3,7 @@ package com.javaacademy.lessons.lesson1.ex2;
 import com.javaacademy.lessons.lesson1.ex2.input.Input;
 import com.javaacademy.lessons.lesson1.ex2.output.Output;
 
-public class Computer <I extends Input, O extends Output> implements Input, Output {
+public class Computer<I extends Input, O extends Output> implements Input, Output {
     private I input;
     private O output;
 
