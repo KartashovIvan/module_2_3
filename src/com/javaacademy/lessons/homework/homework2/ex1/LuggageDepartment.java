@@ -26,10 +26,10 @@ public class LuggageDepartment {
 
     private void unloadHelper() {
         for (Worker worker : workers) {
-            worker.unload(luggages);
-            if (luggages.isEmpty()) {
-                return;
-            }
+//            worker.unload(luggages);
+//            if (luggages.isEmpty()) {
+//                return;
+//            }
         }
     }
 }
